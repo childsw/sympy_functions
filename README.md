@@ -15,3 +15,11 @@ If the substitution is done ahead of time it is rarely an issue.
 
 For each ODE:
   1. Import sympy as sp
+  2. Define variables and functions
+  3. Define an equation
+  4. Solve with sp.dsolve
+  5. Print (optionally with sp.latex for easier display dependent on platform)
+
+Sympy struggles with PDEs, nonlinear DEs, and numerical focused equations. 
+
+Sympy was built to solve symbolic mathematics, nonsymbolic mathematics is best for numpy. 
